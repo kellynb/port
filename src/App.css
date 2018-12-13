@@ -46,6 +46,38 @@ button {
   display: inherit;
 }
 
+.Contact-page {
+  height: 100vh;
+  background-color: white;
+  padding-top: 15vh;
+}
+
+.Contact-text {
+  font-size: 50px;
+}
+
+
+form {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 40%;
+  height: 25px;
+}
+
+textarea {
+  width: 40%;
+  height: 200px;
+}
 
 
 .App-link {
